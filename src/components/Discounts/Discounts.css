@@ -1,0 +1,132 @@
+.discounts-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 430px;
+    align-items: center;
+    margin-bottom: 63px;
+}
+
+.discounts-heading-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.discounts-heading-font {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.discounts-confetti {
+    width: 3%;
+}
+
+.discounted-food-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    height: 100%;
+}
+
+.food-type-button {
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.active-food-type-button {
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 1px solid #FC8A06;
+    border-radius: 60px;
+    color: #FC8A06;
+    font-family: Poppins;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.discounted-restaurants {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .burger-img-wrap {
+    width: 32%;
+    height: 320px;
+    background-image: url("burgers.png");
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px red;
+}
+
+.salad-img-wrap {
+    width: 32%;
+    height: 320px;
+    background-image: url("salads.png");
+    border-radius: 10px;
+} */
+
+.food-photo {
+    width: 100%;
+}
+
+.food-photo-wrap {
+    position: relative;
+    width: 32%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.food-photo-wrap img {
+    display: block;
+}
+
+.food-photo-wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 0.75) 0%,
+            rgba(0, 0, 0, 0.45) 55%,
+            rgba(0, 0, 0, 0.1) 80%,
+            rgba(0, 0, 0, 0) 100%);
+
+    z-index: 1;
+}
+
+.food-photo-content {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    bottom: 8%;
+    left: 8%;
+    position: absolute;
+}
+
+.orange-font {
+    color: #FC8A06;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.white-font {
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+}

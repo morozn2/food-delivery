@@ -5,20 +5,20 @@ export function Hero() {
         <div className='hero'>
             <div className='hero-text'>
                 <p className='regular-font'>Order Restaurant food, takeaway and groceries</p>
-                <h2 className='big-font'>Feast Your Senses, <span className='orange-font'>Fast and Fresh</span></h2>
+                <h2 className='big-font'>Feast Your Senses, <span className='orange-font-hero'>Fast and Fresh</span></h2>
                 <p className='small-regular-font'>Enter a postcode to see what we deliver</p>
                 <div className='input-wrap'>
                     <input type="text" placeholder='e.g. EC4R 3TE' className='postcode-input' />
                     <button className='input-search-button'>Search</button>
                 </div>
             </div>
-            <img src="hero-decor.png" alt="" className='hero-decor' />
-            <img src="pizza-girl.png" alt="" className='pizza-girl' />
-            <img src="noodles-girl.png" alt="" className='noodles-girl' />
+            <img src="./hero/hero-decor.png" alt="" className='hero-decor' />
+            <img src="./hero/pizza-girl.png" alt="" className='pizza-girl' />
+            <img src="./hero/noodles-girl.png" alt="" className='noodles-girl' />
             <div className='hero-notification notif-position-one'>
                 <p className='number-font'>1</p>
                 <div className='notif-logo-wrap'>
-                    <img src="small-logo.png" alt="" className='notification-logo' />
+                    <img src="./hero/small-logo.png" alt="" className='notification-logo' />
                     <p className='notif-grey-font'>now</p>
                 </div>
                 <div className='notif-text-wrap'>
@@ -32,7 +32,7 @@ export function Hero() {
             <div className='hero-notification notif-position-two'>
                 <p className='number-font'>2</p>
                 <div className='notif-logo-wrap'>
-                    <img src="small-logo.png" alt="" className='notification-logo' />
+                    <img src="./hero/small-logo.png" alt="" className='notification-logo' />
                     <p className='notif-grey-font'>now</p>
                 </div>
                 <div className='notif-text-wrap'>
@@ -43,7 +43,7 @@ export function Hero() {
             <div className='hero-notification notif-position-three'>
                 <p className='number-font'>3</p>
                 <div className='notif-logo-wrap'>
-                    <img src="small-logo.png" alt="" className='notification-logo' />
+                    <img src="./hero/small-logo.png" alt="" className='notification-logo' />
                     <p className='notif-grey-font'>now</p>
                 </div>
                 <div className='notif-text-wrap'>

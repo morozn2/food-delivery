@@ -3,7 +3,7 @@ import './Header.css'
 export function Header() {
     return (
         <header>
-            <img src="big-logo.png" alt="" />
+            <img src="./header/big-logo.png" alt="" />
             <div className='navigation'>
                 <a href="#"><button className='active-page-nav'>Home</button></a>
                 <a href="#"><button className='page-nav'>Browse Menu</button></a>

@@ -1,0 +1,50 @@
+.categories-wrap {
+    width: 90%;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+
+.categories-heading-font {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 51px;
+}
+
+.emoji {
+    width: 2%;
+}
+
+.food-restaurants {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 245px;
+    background-color: #F5F5F5;
+    border: 2px solid #dcdcdc;
+    border-radius: 12px;
+    text-indent: 15px;
+}
+
+.category-heading-font {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.category-orange-font {
+    font-family: Poppins;
+    font-size: 13px;
+    color: #FC8A06;
+}

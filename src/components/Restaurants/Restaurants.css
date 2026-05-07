@@ -1,0 +1,42 @@
+.restaurants-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 365px;
+}
+
+.restaurants-heading-font {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 51px;
+    text-indent: 15px;
+}
+
+.restaurants {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 245px;
+    background-color: #FC8A06;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.restaurant-card-heading {
+    font-family: Poppins;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    bottom: 0;
+    margin-top: 20px;
+}
