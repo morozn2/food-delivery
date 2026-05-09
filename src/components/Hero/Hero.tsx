@@ -12,9 +12,9 @@ export function Hero() {
                     <button className='input-search-button'>Search</button>
                 </div>
             </div>
-            <img src="./hero/hero-decor.png" alt="" className='hero-decor' />
-            <img src="./hero/pizza-girl.png" alt="" className='pizza-girl' />
-            <img src="./hero/noodles-girl.png" alt="" className='noodles-girl' />
+            <img src="./hero/hero-decor.png" alt="" className='hero-decor' draggable="false" />
+            <img src="./hero/pizza-girl.png" alt="" className='pizza-girl' draggable="false" />
+            <img src="./hero/noodles-girl.png" alt="" className='noodles-girl' draggable="false" />
             <div className='hero-notification notif-position-one'>
                 <p className='number-font'>1</p>
                 <div className='notif-logo-wrap'>

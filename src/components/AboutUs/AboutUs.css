@@ -29,6 +29,7 @@
     width: 55%;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .about-us-button-active {
@@ -38,6 +39,7 @@
     border: 2px solid #FC8A06;
     font-family: Poppins;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .about-us-button {
@@ -102,10 +104,11 @@
 .answer-content {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+    margin-bottom: 33px;
 }
 
 .answer-card {
@@ -132,4 +135,20 @@
     font-weight: 500;
     letter-spacing: -2%;
     font-size: 14px;
+}
+
+.answer-paragraph {
+    font-family: Poppins;
+    letter-spacing: -2%;
+    font-size: 16px;
+    width: 80%;
+}
+
+.answers {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

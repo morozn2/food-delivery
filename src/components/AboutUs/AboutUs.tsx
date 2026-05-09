@@ -20,22 +20,26 @@ export function AboutUs() {
                     <button className='faq-button'>Are there any special discounts or promotions available?</button>
                     <button className='faq-button'>Is Order.UK available in my area?</button>
                 </div>
-                <div className='answer-content'>
-                    <div className='answer-card'>
-                        <h3 className='card-heading'>Place an Order!</h3>
-                        <img src="./aboutus/order-food.png" alt="" />
-                        <p className='about-us-paragraph'>Place order through our website or Mobile app</p>
+                <div className='answers'>
+                    <div className='answer-content'>
+                        <div className='answer-card'>
+                            <h3 className='card-heading'>Place an Order!</h3>
+                            <img src="./aboutus/order-food.png" alt="" draggable="false" />
+                            <p className='about-us-paragraph'>Place order through our website or Mobile app</p>
+                        </div>
+                        <div className='answer-card'>
+                            <h3 className='card-heading'>Track Progress</h3>
+                            <img src="./aboutus/food.png" alt="" draggable="false" />
+                            <p className='about-us-paragraph'>Your can track your order status with delivery time</p>
+                        </div>
+                        <div className='answer-card'>
+                            <h3 className='card-heading'>Get your Order!</h3>
+                            <img src="./aboutus/order.png" alt="" draggable="false" />
+                            <p className='about-us-paragraph'>Receive your order at a lighting fast speed!</p>
+                        </div>
                     </div>
-                    <div className='answer-card'>
-                        <h3 className='card-heading'>Track Progress</h3>
-                        <img src="./aboutus/food.png" alt="" />
-                        <p className='about-us-paragraph'>Your can track your order status with delivery time</p>
-                    </div>
-                    <div className='answer-card'>
-                        <h3 className='card-heading'>Get your Order!</h3>
-                        <img src="./aboutus/order.png" alt="" />
-                        <p className='about-us-paragraph'>Receive your order at a lighting fast speed!</p>
-                    </div>
+                    <p className='answer-paragraph'>Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes,
+                        and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!</p>
                 </div>
             </div>
         </div>
