@@ -1,0 +1,97 @@
+.vacancies-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 365px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.vacancy-wrap {
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vacancy-wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.1) 55%,
+            rgba(0, 0, 0, 0.0) 80%,
+            rgba(0, 0, 0, 0) 100%);
+
+    z-index: 1;
+}
+
+.vacancy-photo {
+    width: 100%;
+}
+
+.vacancy-upper-part {
+    background-color: white;
+    width: 40%;
+    height: 63px;
+    margin-left: 60px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.vacancy-black-font {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+.vacancy-content {
+    position: absolute;
+    bottom: 25px;
+    left: 60px;
+    z-index: 1;
+}
+
+.text-content {
+    margin-bottom: 20px;
+}
+
+.white-heading-vacancy {
+    color: white;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.orange-font-vacancy {
+    color: #FC8A06;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.button-vacancy {
+    background-color: #FC8A06;
+    width: 60%;
+    height: 52px;
+    border-radius: 60px;
+    border: none;
+    font-family: Poppins;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
