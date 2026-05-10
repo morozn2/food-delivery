@@ -8,6 +8,8 @@ import { Restaurants } from './components/Restaurants/Restaurants'
 import { Apps } from './components/Apps/Apps'
 import { Vacancies } from './components/Vacancies/Vacancies'
 import { AboutUs } from './components/AboutUs/AboutUs'
+import { Stats } from './components/Stats/Stats'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
       <Apps />
       <Vacancies />
       <AboutUs />
+      <Stats />
+      <Footer />
     </div>
   )
 }
